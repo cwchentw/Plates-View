@@ -7,7 +7,7 @@ Slim Framework 3 view helper built on top of Plates templating engine
 Install with [Composer](http://getcomposer.org):
 
 ```
-    $ composer require slim/plates-view
+    $ composer require cwchentw/slim-plates-view
 ```
 
 ## Usage with Slim 3
