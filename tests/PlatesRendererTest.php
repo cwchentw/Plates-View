@@ -7,7 +7,7 @@ class PlatesRendererTest extends PHPUnit_Framework_TestCase
 {
     public function testRenderer()
     {
-        $renderer = new \Slim\Views\PlatesRenderer("tests/");
+        $renderer = new \Cwchentw\PlatesRenderer("tests/");
 
         $headers = new Headers();
         $body = new Body(fopen('php://temp', 'r+'));
@@ -30,7 +30,7 @@ HTML;
 
     public function testAttributeMerging()
     {
-        $renderer = new \Slim\Views\PlatesRenderer("tests/", [
+        $renderer = new \Cwchentw\PlatesRenderer("tests/", [
             "hello" => "Hello"
         ]);
         $headers = new Headers();
@@ -47,7 +47,7 @@ HTML;
      * @expectedException InvalidArgumentException
      */
     public function testExceptionForTemplateInData() {
-        $renderer = new \Slim\Views\PlatesRenderer("tests/");
+        $renderer = new \Cwchentw\PlatesRenderer("tests/");
 
         $headers = new Headers();
         $body = new Body(fopen('php://temp', 'r+'));
@@ -63,7 +63,7 @@ HTML;
      */
     public function testTemplateNotFound()
     {
-        $renderer = new \Slim\Views\PlatesRenderer('tests/');
+        $renderer = new \Cwchentw\PlatesRenderer('tests/');
 
         $headers = new Headers();
         $body = new Body(fopen('php://temp', 'r+'));

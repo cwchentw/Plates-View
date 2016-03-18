@@ -1,5 +1,5 @@
 {
-  "name": "slim/plates-view",
+  "name": "cwchentw/slim-plates-view",
   "type": "library",
   "description": "Slim Framework 3 view helper built on top of Plates templating engine",
   "keywords": ["slim", "framework", "view", "template", "plates"],
@@ -14,7 +14,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Slim\\Views\\": "src"
+      "Cwchentw\\": "src"
     }
   },
   "require": {

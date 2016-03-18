@@ -1,5 +1,5 @@
 <?php
-namespace Slim\Views;
+namespace Cwchentw;
 
 require './vendor/autoload.php';
 
