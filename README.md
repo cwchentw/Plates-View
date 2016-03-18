@@ -4,7 +4,7 @@ Slim Framework 3 view helper built on top of Plates templating engine
 
 ## Installation
 
-Install with [Composer]((http://getcomposer.org):
+Install with [Composer](http://getcomposer.org):
 
 ```
     $ composer require slim/plates-view
