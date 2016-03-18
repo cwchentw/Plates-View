@@ -13,7 +13,7 @@ Install with [Composer](http://getcomposer.org):
 ## Usage with Slim 3
 
 ```php
-use Slim\Views\PlatesRenderer;
+use Cwchentw\PlatesRenderer;
 
 include "vendor/autoload.php";
 
