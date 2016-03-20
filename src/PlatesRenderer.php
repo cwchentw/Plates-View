@@ -1,8 +1,6 @@
 <?php
 namespace Cwchentw;
 
-require './vendor/autoload.php';
-
 use \InvalidArgumentException;
 use Psr\Http\Message\ResponseInterface;
 
